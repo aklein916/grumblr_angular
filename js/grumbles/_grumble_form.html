@@ -1,0 +1,9 @@
+<form>
+  <input type='text' name='title' ng-model='grumble.title'>
+  <input type='text' name='authorName' ng-model="grumble.authorName">
+  <input type='text' name='photoUrl' ng-model="grumble.photoUrl">
+  <textarea name='content' ng-model="grumble.content"></textarea>
+  <a data-ui-sref='grumbleShow({id: grumble.id})'>&larr; Back</a>
+  <button type='button' ng-click='update()'>Save</button>
+</form>
+``
